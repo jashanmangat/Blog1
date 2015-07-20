@@ -1,0 +1,12 @@
+// the grid settings
+$column: 90px;
+$gutter: 0px;
+$grid-columns: 10;
+$max-width: 100%;
+
+
+// Define your breakpoints
+$large-desktop: new-breakpoint(min-width 1500px 10);  //Desktop // Atlease 20 Inch
+$laptop: new-breakpoint(min-width 1025px 10);  //Laptop Standard
+$tablet: new-breakpoint(min-width 769px 10);   //Tablet Wide
+$mobile: new-breakpoint(max-width 768px 10);   // Any High End Mobile
